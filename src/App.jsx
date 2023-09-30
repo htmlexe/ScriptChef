@@ -1,36 +1,27 @@
-import './App.css'
+import Reat from 'react'
 import {
-  createBrowserRouter,
-  RouterProvider,
+  BrowserRouter,
+  Routes,
+  Route
 } from "react-router-dom";
+import './App.css'
 import Home from './page/Home/Home';
 import SignIn from './page/SignIn/SignIn';
 import SignUp from './page/SignUp/SignUp';
-import MBTITest from './page/MBTITest/MBTITest';
+import { AuthContextProvider } from "./context/authContext";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <Home />,
-    },
-    {
-      path: "/signin",
-      element: <SignIn />,
-    },
-    {
-      path: "/signup",
-      element: <SignUp />,
-    },
-    {
-      path: "/mbtitest",
-      element: <MBTITest />,
-    },
-  ]);
-
   return (
-    <RouterProvider router={router} />
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<SignIn />}> </Route>
+        <Route path='/sign-up' element={<SignUp />}></Route>
+        <Route path='/' element={<SignUp />}> </Route>
+        <Route path='/sign-in' element={<SignIn />}></Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
-export default App;
+export default App
