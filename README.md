@@ -38,20 +38,5 @@
 * **Git (tùy chọn)**: Git là một hệ thống quản lý phiên bản và có thể hữu ích để theo dõi phiên bản và quản lý mã nguồn của dự án React.
 
 
----
 
-# **Báo cáo lỗi**
-Nếu bạn gặp bất kỳ lỗi hoặc vấn đề nào khi sử dụng trang web của chúng tôi, hãy báo cáo chúng tại [liên kết hoặc địa chỉ email của chúng tôi].
-
----
-
-# **Đóng góp**
-Chúng tôi rất hoan nghênh mọi đóng góp từ cộng đồng. Nếu bạn muốn đóng góp vào dự án, hãy tham khảo hướng dẫn đóng góp của chúng tôi.
-
----
-# **Liên hệ**
-
-Nếu bạn có bất kỳ câu hỏi hoặc phản hồi nào, vui lòng liên hệ chúng tôi qua [địa chỉ email hoặc trang Liên hệ của chúng tôi].
-
-Cảm ơn bạn đã quan tâm đến trang web của chúng tôi và hy vọng rằng nó sẽ mang lại giá trị cho bạn
 
