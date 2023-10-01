@@ -1,25 +1,35 @@
-import { quotes } from "../assets";
+import React from "react";
 
-const FeedbackCard = ({ content, name, title, img }) => (
-  <div className="flex justify-between flex-col px-10 py-12 rounded-[20px]  max-w-[370px] md:mr-10 sm:mr-5 mr-0 my-5 feedback-card">
-    <img src={quotes} alt="double_quotes" className="w-[42.6px] h-[27.6px] object-contain" />
-    <p className="font-poppins font-normal text-[18px] leading-[32.4px] text-white my-10">
+const FeedbackCard = ({ content, title, img, stats, foots }) => (
+  <div className="flex flex-col items-start justify-start p-6 rounded-lg max-w-[370px] border border-solid border-white shadow-lg bg-white feedback-card">
+    <div className="flex flex-col items-start">
+      <img src={img} className="w-[100%] h-[100%] mb-2" />
+      <p className="font-robocon font-normal text-[18px] leading-[32.4px] text-[#333333]">
+        <strong>{title}</strong>
+      </p>
+    </div>
+
+    <p className="font-robocon font-normal text-[16px] leading-[24px] text-[#060640] text-start">
       {content}
     </p>
 
-    <div className="flex flex-row">
-      <img src={img} alt={name} className="w-[48px] h-[48px] rounded-full" />
-      <div className="flex flex-col ml-4">
-        <h4 className="font-poppins font-semibold text-[20px] leading-[32px] text-white">
-          {name}
-        </h4>
-        <p className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">
-          {title}
+    <hr className="w-3/4 my-4 border border-solid border-gray-300" />
+
+    <div className="font-robocon font-normal text-[16px] leading-[20px] text-[#2E343F]">
+      {stats.map((stat, index) => (
+        <p key={index}>
+          <strong>{stat.split(" ")[0]}</strong>{" "}
+          {stat.split(" ").slice(1).join(" ")}
         </p>
-      </div>
+      ))}
     </div>
+
+    <hr className="w-3/4 my-4 border border-solid border-gray-300" />
+
+    <p className="font-robocon font-normal text-[16px] leading-[24px] text-[#9090A7]">
+      {foots}
+    </p>
   </div>
 );
-
 
 export default FeedbackCard;

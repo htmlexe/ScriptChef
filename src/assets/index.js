@@ -1,15 +1,9 @@
 import airbnb from "./airbnb.png";
-import bill from "./bill.png";
 import binance from "./binance.png";
-import card from "./card.png";
 import coinbase from "./coinbase.png";
 import dropbox from "./dropbox.png";
-import logo from "./logo.svg";
-import quotes from "./quotes.svg";
-import robot from "./robot.png";
-import send from "./Send.svg";
-import shield from "./Shield.svg";
-import star from "./Star.svg";
+import logo from "./logo.png";
+import thuc_tien from "./thuc-tien-doanh-nghiep.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import google from "./google.svg";
@@ -20,23 +14,27 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
-import people01 from "./people01.png";
-import people02 from "./people02.png";
-import people03 from "./people03.png";
+import feedback_01 from "./feedback-1.png";
+import feedback_02 from "./feedback-2.png";
+import feedback_03 from "./feedback-3.png";
+import article_01 from "./article-1.png";
+import article_02 from "./article-2.png";
+import article_03 from "./article-3.png";
+import star from "./Star.svg";
+import shield from "./Shield.svg";
+import send from "./Send.svg";
+import logo_partner_01 from "./logo-partner-1.png";
+import logo_partner_02 from "./logo-partner-2.png";
+import logo_partner_03 from "./logo-partner-3.png";
+import logo_partner_04 from "./logo-partner-4.png";
 
 export {
   airbnb,
-  bill,
   binance,
-  card,
   coinbase,
   dropbox,
   logo,
-  quotes,
-  robot,
-  send,
-  shield,
-  star,
+  thuc_tien,
   menu,
   close,
   google,
@@ -47,7 +45,17 @@ export {
   instagram,
   linkedin,
   twitter,
-  people01,
-  people02,
-  people03,
+  feedback_01,
+  feedback_02,
+  feedback_03,
+  article_01,
+  article_02,
+  article_03,
+  logo_partner_01,
+  logo_partner_02,
+  logo_partner_03,
+  logo_partner_04,
+  star,
+  shield, 
+  send
 };

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Stalemate&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -11,7 +12,7 @@
     #6d6d6d -78.47%,
     #11101d 91.61%
   );
-  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  --card-shadow: 0px 20px 100px -10px rgba(221, 223, 232, 0.1);
 }
 
 * {
@@ -31,7 +32,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 
 .bg-blue-gradient {
@@ -107,21 +107,39 @@
   }
 }
 
-.feature-card:hover {
-  background: var(--black-gradient);
-  box-shadow: var(--card-shadow);
+.custom-container {
+  margin-top: 0px;
+  margin-bottom: -10px;
 }
 
 .feedback-container .feedback-card:last-child {
-  margin-right: 0px;
+  margin-right: 12px;
 }
 
 .feedback-card {
   background: transparent;
+  transition: transform 0.2s ease-in-out;
 }
 
 .feedback-card:hover {
-  background: var(--black-gradient);
+  transform: scale(1.05);
+
+
+
+  
+}
+
+.article-container .article-card:last-child {
+  margin-right: 12px;
+}
+
+.article-card {
+  background: transparent;
+  transition: transform 0.2s ease-in-out;
+}
+
+.article-card:hover {
+  transform: scale(1.05);
 }
 
 .blue__gradient {
@@ -137,4 +155,22 @@
 .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
+}
+
+.card {
+  width: 303px;
+  height: 263px;
+  flex-shrink: 0;
+  border: 1px solid var(--Light-Grey, #D9D9D9);
+  background: var(--White, #FFF);
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin: 10px; 
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; 
 }

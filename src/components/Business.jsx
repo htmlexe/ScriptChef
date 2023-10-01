@@ -1,5 +1,5 @@
 import { features } from "../constants";
-import styles, { layout } from "../style";
+import styles, { layout } from "../style_home_page";
 import Button from "./Button";
 
 const FeatureCard = ({ icon, title, content, index }) => (
@@ -18,8 +18,10 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 
-const Business = () =>  (
-  <section id="features" className={layout.section}>
+const showBusinessSection = false; 
+
+const Business = () => (
+  <section id="features" className={showBusinessSection ? layout.section : 'hidden'}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         You do the business, <br className="sm:block hidden" /> we’ll handle
@@ -30,8 +32,6 @@ const Business = () =>  (
         building credit, earning rewards and saving money. But with hundreds
         of credit cards on the market.
       </p>
-
-      <Button styles={`mt-10`} />
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>

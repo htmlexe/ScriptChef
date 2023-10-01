@@ -1,29 +1,31 @@
-import styles from "./style";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import style_home_pages from "./style_home_page";
+import { Business, CardDeal, Clients, Footer, Navbar, Testimonials, Hero } from "./components";
 
 const App = () => (
-  <div className="bg-primary w-full overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
+  <div className="w-full bg-white w-full overflow-hidden">
+    <div className={`${style_home_pages.paddingX} ${style_home_pages.flexStart}`}>
+      <div className={`${style_home_pages.boxWidth}`}>
         <Navbar />
       </div>
     </div>
 
-    <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
+    <div className={`bg-[#F4F4F4] ${style_home_pages.flexStart} custom-container`}>
+      <div className={`${style_home_pages.boxWidth}`}>
         <Hero />
       </div>
     </div>
-    
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Stats />
-        <Business />
-        <Billing />
+
+    <div className={`bg-white ${style_home_pages.flexStart} custom-container`}>
+      <div className={`${style_home_pages.boxWidth}`}>
         <CardDeal />
+        <Business />
         <Testimonials />
         <Clients />
-        <CTA />
+      </div>
+    </div>
+
+    <div className={`bg-[#2E343F] ${style_home_pages.paddingX} ${style_home_pages.flexCenter}`}>
+      <div className={`${style_home_pages.boxWidth}`}>
         <Footer />
       </div>
     </div>

@@ -1,21 +1,25 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { feedback_01, feedback_02, feedback_03, article_01, article_02, article_03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, star, shield, send} from "../assets";
 
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "Ngành nghề",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "business",
+    title: "Cộng đồng",
   },
   {
     id: "product",
-    title: "Product",
+    title: "Khóa học liên kết",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Đối tác",
+  },
+  {
+    id: "learn_more",
+    title: "Đọc thêm",
   },
 ];
 
@@ -47,44 +51,59 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+      "Đưa ra giải pháp cho sản phẩm của bạn, đáp ứng được nhu cầu đã đề ra",
+    title: "Product Owner",
+    img: feedback_01,
+    stats: [
+      "+1000 bài toán từ doanh nghiệp",
+      "+250 khóa học liên kết",
+    ],
+    foots: "image + 99k employee",
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+      "Phát triển chiến lược bảo vệ doanh nghiệp khỏi tấn công mạng",
+    title: "Cybersecurity Analyst",
+    img: feedback_02,
+    stats: [
+      "+900 bài toán từ doanh nghiệp",
+      "+280 khóa học liên kết",
+    ],
+    foots: "image + 95k employee",
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+      "Thiết kế và phát triển trải nghiệm UX của người dùng",
+    title: "Front-end Developer",
+    img: feedback_03,
+    stats: [
+      "+1400 bài toán từ doanh nghiệp",
+      "+320 khóa học liên kết",
+    ],
+    foots: "image + 100k employee",
   },
 ];
 
-export const stats = [
+export const article = [
   {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    id: "article-1",
+    title: "Tạo Resume ấn tượng chuẩn Harvard",
+    img: article_01,
+    foots: "Tìm hiểu thêm",
   },
   {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    id: "article-2",
+    title: "Nghiệp vụ kế toán BA cần biết",
+    img: article_02,
+    foots: "Tìm hiểu thêm",
   },
   {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    id: "article-3",
+    title: "UML có khó như bạn nghĩ",
+    img: article_03,
+    foots: "Tìm hiểu thêm",
   },
 ];
 
