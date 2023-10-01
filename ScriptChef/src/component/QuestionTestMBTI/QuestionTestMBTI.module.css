@@ -1,0 +1,12 @@
+.element{
+    min-width: 500px;
+    padding: 10px 20px;
+    border: 2px solid #E4E4E4;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.container {
+    min-width: 500px;
+    text-align: start;
+}

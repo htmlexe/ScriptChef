@@ -1,0 +1,99 @@
+.container{
+    display: flex;
+    flex-direction:column;
+    margin: auto;
+    margin-top: 200px;
+    width: 600px;
+    background-color: white;
+    padding-bottom: 30px
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap:9px;
+    width:100%;
+    margin-top: 30px;
+}
+
+.text{
+    color: blue;
+    font-size: 48px;
+    font-weight:700;
+
+}
+.underline{
+    width:61px;
+    height:6px;
+    background: blue;
+    border-radius: 9px;
+    gap:25px; 
+}
+
+.inputs{
+    margin-top: 55px;
+    display:flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin:auto;
+    width:480px;
+    height: 70px;
+    background: #eaeaea;
+    border-radius: 6px;
+
+}
+.input img{
+    margin: 0px 30px;
+}
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color:black;
+    font-size: 19px;
+    opacity:0.5;
+}
+.haveAccount{
+    padding: left 58px;
+    margin-top: -40px;
+    color: #797979;
+    font-size:18px;
+}
+.format{
+    color:black;
+    font-size:20px;
+    margin-top:-20px;
+    margin-bottom:-20px;
+    padding:10px 0px 10px 60px;
+    text-align:start;
+    font-weight:500;
+}
+.haveAccount span{
+    color: blue;
+    cursor: pointer;
+}
+.submitContainer{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+.submit{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height:70px;
+    background: blue;
+    color:white;
+    font-size:19px;
+    font-weight: 700; 
+    border-radius:6px;
+}

@@ -1,0 +1,33 @@
+{
+    "questions": [{
+      "title": "1. My best ideas at work come from",
+      "selections": [
+        "an interchange of ideas and sharing with others.",
+        "quiet thought on my own."
+      ]
+    }, {
+      "title": "2. When I run a meeting, I am usually",
+      "selections": [
+        "disciplined about following my prepared agenda.",
+        "flexible and open to whatever comes up."
+      ]
+    }, {
+      "title": "3. When handling a subordinate's development, I am most likely to ",
+      "selections": [
+        "discuss a problem I have with his or her behavior.",
+        "dislike telling him or her unpleasant things."
+      ]
+    }, {
+      "title": "4. I prefer the place I work to be",
+      "selections": [
+        "structured with clear rules and regulations.",
+        "more open-ended and laissez-faire."
+      ]
+    }, {
+      "title": "5. I would rather have a supervisor with whom I have",
+      "selections": [
+        "a lot of day-by-day interaction.",
+        "only infrequent interaction."
+      ]
+    }]
+  }
