@@ -1,5 +1,6 @@
 import React,{useState} from 'react'
 import style from './SignUp.module.css'
+import logo_icon from '../../../public/Assets/logo.png';
 
 import user_icon from '/Assets/person.png'
 import email_icon from '/Assets/email.png'
@@ -8,6 +9,12 @@ import {Link}from 'react-router-dom'
 const SignUp = () => {
     return( 
     <div className={style.container}>
+      <div
+        className="absolute top-0 left-300"
+        style={{ width: '200px', height: '100px' }}
+      >
+        <img src={logo_icon} alt="" style={{ width: '100%', height: '100%' }} />
+      </div>
         <div className={style.header}>
             <div className={style.text}>Sign Up</div>
             <div className={style.underline}></div>
