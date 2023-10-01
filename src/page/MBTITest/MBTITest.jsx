@@ -37,11 +37,19 @@ const MBTITest = () => {
 
     return <div>
         <div style={{maxWidth: "550px", margin: "auto"}}>
-            <BorderLinearProgress variant="determinate" value={(index + 1) / 5 * 100} />
+            <BorderLinearProgress variant="determinate" value={(index + 1) / 3 * 100} />
             <QuestionTestMBTI quest={test.questions[index]} setAns={a => setAns(a)} />
+            <div style={{display: "flex", justifyContent: "space-between", marginTop: "20px"}}>
+            <Button variant="outlined">
+                Làm sau
+            </Button>
             <Button variant="contained" onClick={handleSubmit} disabled={disabled}>
                 {index == 4 ? "Done" : "Continue"}
             </Button>
+            
+            
+            </div>
+            
         </div>
     </div>
 }

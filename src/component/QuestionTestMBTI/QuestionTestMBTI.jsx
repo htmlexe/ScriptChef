@@ -18,7 +18,7 @@ const QuestionTestMBTI = ({ quest, setAns }) => {
         <div className={style.container}>
             <FormControl className={style.container}>
                 <FormLabel id="demo-controlled-radio-buttons-group">
-                    <h2>{quest.title}</h2>
+                    <h4 style={{margin: "20px 0", color: "black"}}>{quest.title}<span style={{color: "red"}}>*</span></h4>
                 </FormLabel>
                 <RadioGroup
                     aria-labelledby="demo-controlled-radio-buttons-group"
@@ -31,6 +31,12 @@ const QuestionTestMBTI = ({ quest, setAns }) => {
                     </div>
                     <div className={style.element}>
                         <FormControlLabel value={"1"} control={<Radio />} label={quest.selections[1]} />
+                    </div>
+                    <div className={style.element}>
+                        <FormControlLabel value={"2"} control={<Radio />} label={quest.selections[2]} />
+                    </div>
+                    <div className={style.element}>
+                        <FormControlLabel value={"3"} control={<Radio />} label={quest.selections[3]} />
                     </div>
                 </RadioGroup>
             </FormControl>

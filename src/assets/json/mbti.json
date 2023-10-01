@@ -1,33 +1,27 @@
 {
     "questions": [{
-      "title": "1. My best ideas at work come from",
+      "title": "Những ý tưởng hay nhất của tôi tại công việc đến từ: ",
       "selections": [
-        "an interchange of ideas and sharing with others.",
-        "quiet thought on my own."
+        "Quan sát và lắng nghe vấn đề từ góc nhìn của khách hàng/đối tác",
+        "Suy nghĩ im lặng một mình",
+        "Trao đổi ý kiến và chia sẻ với người khác",
+        "Tham khảo giải pháp hay từ các chuyên gia ngành nghề khác"
       ]
     }, {
-      "title": "2. When I run a meeting, I am usually",
+      "title": "Tôi thích các cuộc họp nơi phần lớn thời gian được dành cho: ",
       "selections": [
-        "disciplined about following my prepared agenda.",
-        "flexible and open to whatever comes up."
+        "Tôi thích cân bằng giữa thảo luận ý tưởng và triển khai thực tế",
+        "Tôi thích trọng tâm vào các ý tưởng ban đầu",
+        "Tùy vào tính chất của vấn đề mà tôi sẽ ưu tiên thời gian cho cả hai phần",
+        "Tôi không có sự ưu tiên rõ rệt, miễn là cuộc họp"
       ]
     }, {
-      "title": "3. When handling a subordinate's development, I am most likely to ",
+      "title": "Khi sếp giao cho tôi một nhiệm vụ phức tạp, tôi thường: ",
       "selections": [
-        "discuss a problem I have with his or her behavior.",
-        "dislike telling him or her unpleasant things."
-      ]
-    }, {
-      "title": "4. I prefer the place I work to be",
-      "selections": [
-        "structured with clear rules and regulations.",
-        "more open-ended and laissez-faire."
-      ]
-    }, {
-      "title": "5. I would rather have a supervisor with whom I have",
-      "selections": [
-        "a lot of day-by-day interaction.",
-        "only infrequent interaction."
+        "Thu thập nhiều thông tin có liên quan nhất có thể trước khi bắt đầu",
+        "Bắt tay ngay vào làm việc và dựa vào khả năng tự giải quyết vấn đề",
+        "Trao đổi kỹ với sếp để hiểu rõ nhiệm vụ và đưa ra kế hoạch triển khai",
+        "Cân nhắc thời gian, tài nguyên để lựa chọn cách thức phù hợp nhất"
       ]
     }]
   }

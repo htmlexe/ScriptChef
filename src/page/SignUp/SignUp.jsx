@@ -5,8 +5,14 @@ import logo_icon from '../../../public/Assets/logo.png';
 import user_icon from '/Assets/person.png'
 import email_icon from '/Assets/email.png'
 import password_icon from '/Assets/password.png'
-import {Link}from 'react-router-dom'
+import {Link, useNavigate}from 'react-router-dom'
 const SignUp = () => {
+    const navigate = useNavigate()
+
+    const handleSubmit = () => {
+           navigate("/select-career");
+        }
+
     return( 
     <div className={style.container}>
       <div
@@ -42,7 +48,7 @@ const SignUp = () => {
             </div>
         </div>
         <div className={style.submitContainer}>
-            <div className={style.submit}>Sign Up</div>
+            <div className={style.submit} onClick={handleSubmit}>Sign Up</div>
         </div>
         <div className={style.haveAccount} >Do you have an Account ? <Link to={"/sign-in"}>Sign in</Link>
 </div>

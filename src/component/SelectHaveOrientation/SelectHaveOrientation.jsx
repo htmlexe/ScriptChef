@@ -15,7 +15,9 @@ const SelectHaveOrientation = ({ setIsSelectedOrien }) => {
         setIsSelectedOrien(true);
         if (!choice) {
             console.log(true);
-            navigate("/mbtitest");
+            navigate("/mbti-test");
+        } else {
+            navigate("/sign-in")
         }
     }
 
@@ -23,7 +25,7 @@ const SelectHaveOrientation = ({ setIsSelectedOrien }) => {
         <div>
             <FormControl className={style.container}>
                 <FormLabel id="demo-controlled-radio-buttons-group">
-                    <h2>Bạn đã có định hướng nghề nghiệp tương lai cho mình chưa?</h2>
+                <h4 style={{margin: "20px 0", color: "black"}}>Bạn đã có định hướng nghề nghiệp tương lai cho mình chưa?</h4>
                 </FormLabel>
                 <RadioGroup
                     aria-labelledby="demo-controlled-radio-buttons-group"
