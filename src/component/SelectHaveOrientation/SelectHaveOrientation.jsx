@@ -3,7 +3,7 @@ import { FormControl, FormLabel, RadioGroup, FormControlLabel, Radio, Button } f
 import style from "./SelectHaveOrientation.module.css";
 import { useNavigate } from "react-router-dom";
 
-const SelectHaveOrientation = ({ setIsSelectedOrien }) => {
+const SelectHaveOrientation = () => {
     const [choice, setChoice] = useState(false);
     const navigate = useNavigate();
 
@@ -12,7 +12,6 @@ const SelectHaveOrientation = ({ setIsSelectedOrien }) => {
     }
 
     const handleSubmit = () => {
-        setIsSelectedOrien(true);
         if (!choice) {
             console.log(true);
             navigate("/mbti-test");

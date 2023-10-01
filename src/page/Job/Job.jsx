@@ -1,4 +1,5 @@
 import po_img from "/Assets/po.svg"
+import bg from "/Assets/result.svg"
 import roadmap from "/Assets/roadmap.svg"
 import repic1 from "/Assets/relevant_pic1.svg"
 import repic2 from "/Assets/relevant_pic2.svg"
@@ -8,12 +9,12 @@ import b2 from "/Assets/brand-2.svg"
 import b3 from "/Assets/brand-3.svg"
 import b4 from "/Assets/brand-4.svg"
 import style from "./Job.module.css"
-import { Button } from "react-bootstrap"
+import { Button } from "@mui/material"
 
 const Job = () => {
     return <div>
-        <h1 style={{ fontSize: "42px", fontWeight: "700" }}>Product Owner</h1>
-        <div style={{ display: "flex", textAlign: "start" }}>
+        <h1 style={{ fontSize: "42px", fontWeight: "700", marginBottom: "40px" }}>Product Owner</h1>
+        <div style={{ display: "flex", textAlign: "start", justifyContent:"space-around" }}>
             <figure>
                 <img src={po_img} style={{ width: "450px" }} />
                 <figcaption style={{ maxWidth: "450px", paddingRight: "20px" }}>
@@ -24,7 +25,7 @@ const Job = () => {
                 </figcaption>
             </figure>
             <div>
-
+            <img src={bg} style={{ width: "450px" }} />
             </div>
         </div>
         <p className={style.title}>Lộ trình nghề nghiệp</p>
@@ -93,7 +94,7 @@ const Job = () => {
             <p style={{fontSize: "28px", fontWeight: "700", position: "absolute", top: "70px", left: "60px"}}>Có câu hỏi về Case Study?</p>
             <p style={{fontSize: "20px", color: "gray", position: "absolute", top: "110px", left: "60px"}}>Nếu bạn có câu hỏi gì về lộ trình học, chúng tôi</p>
             <p style={{fontSize: "20px", color: "gray", position: "absolute", top: "140px", left: "60px"}}>luôn sẵn sàng trả lời bạn!</p>
-            <Button variant="primary" style={{position: "absolute", top: "120px", left: "590px"}}>Chia sẻ ý tưởng</Button>
+            <Button variant="contained" style={{position: "absolute", top: "120px", left: "590px"}}>Chia sẻ ý tưởng</Button>
         </div>
     </div>
 }

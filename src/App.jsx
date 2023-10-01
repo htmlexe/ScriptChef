@@ -13,6 +13,7 @@ import { AuthContextProvider } from "./context/authContext";
 import MBTITest from "./page/MBTITest/MBTITest"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import SelectCareer from './page/SelectCareer/SelectCareer';
+import SelectHaveOrientation from './component/SelectHaveOrientation/SelectHaveOrientation';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path='/mbti-test' element={<MBTITest />}></Route>
         <Route path='/select-career' element={<SelectCareer />}></Route>
         <Route path='/career-detail' element={<Job />}></Route>
+        <Route path='/select-orien' element={<SelectHaveOrientation />}></Route>
       </Routes>
     </BrowserRouter>
   )
