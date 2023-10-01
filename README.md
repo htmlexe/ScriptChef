@@ -1,8 +1,7 @@
-﻿# THE GUIDER
----
 # THE GUIDER
 
-Nền tảng hỗ trợ định hướng nghề nghiệp bằng cách cung cấp trải nghiệm thực tế qua các bài toán doanh nghiệp.
+**Nền tảng hỗ trợ định hướng nghề nghiệp bằng cách cung cấp trải nghiệm thực tế qua các bài toán doanh nghiệp.
+
 ![image](https://scontent.fhan3-2.fna.fbcdn.net/v/t1.15752-9/385461186_1791665054645140_3308626357062126557_n.png?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_ohc=sgIdeX2p3KsAX-I6z-q&_nc_ht=scontent.fhan3-2.fna&oh=03_AdQoBV86LesGLUx-S9BR42Wk3xp_B0qxcT1rsqSM0vsc7Q&oe=65407773)
 ---
 # **CÁC TÍNH NĂNG CHÍNH**
